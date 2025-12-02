@@ -10,7 +10,7 @@ I love video games and I always wanted to play a game that has a dynamic narrati
 
 ## Video Summary Link: 
 
-Link will go here!!! 
+[Video Link](https://drive.google.com/file/d/1U-VtnR2OCdwME0PX6WwNOiTcFusdEPLs/view?usp=sharing)
 
 ## Plan
 

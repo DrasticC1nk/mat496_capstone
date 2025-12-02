@@ -1,0 +1,49 @@
+{
+    "quests": {
+        "stolen_amulet": {
+            "id": "stolen_amulet",
+            "name": "The Stolen Amulet",
+            "description": "Marta's precious amulet was stolen by bandits in the Dark Forest. She asks you to retrieve it from their camp.",
+            "quest_giver": "tavern_keeper",
+            "objectives": [
+                "Find the bandit camp in the Dark Forest",
+                "Defeat the bandit leader or steal the amulet",
+                "Return the amulet to Marta"
+            ],
+            "rewards": {
+                "gold": 100,
+                "experience": 150,
+                "items": [
+                    "iron_sword"
+                ],
+                "relationship": {
+                    "tavern_keeper": 20
+                }
+            },
+            "level_requirement": 1,
+            "lore": "This amulet represents Marta's past as an adventurer. It's one of the few mementos she has left from her fallen comrades. The bandits don't know its true sentimental value."
+        },
+        "forest_herbs": {
+            "id": "forest_herbs",
+            "name": "Gathering Moonleaf",
+            "description": "The forest guardian Elara asks you to collect rare Moonleaf herbs from the forest depths.",
+            "quest_giver": "forest_guardian",
+            "objectives": [
+                "Collect 5 Moonleaf herbs from the Dark Forest",
+                "Return them to Elara"
+            ],
+            "rewards": {
+                "gold": 50,
+                "experience": 75,
+                "items": [
+                    "forest_blessing"
+                ],
+                "relationship": {
+                    "forest_guardian": 30
+                }
+            },
+            "level_requirement": 1,
+            "lore": "Moonleaf is sacred to the forest elves and has powerful alchemical properties."
+        }
+    }
+}

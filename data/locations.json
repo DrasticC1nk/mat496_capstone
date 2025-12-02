@@ -1,0 +1,136 @@
+{
+    "tavern": {
+        "name": "The Red Dragon Tavern",
+        "description": "A warm, bustling tavern filled with the smell of roasted meat and ale. Wooden tables are scattered throughout, occupied by travelers and locals sharing stories. A large fireplace crackles in the corner.",
+        "connections": [
+            "town_square",
+            "dark_forest"
+        ],
+        "npcs": [
+            "tavern_keeper"
+        ],
+        "items": [
+            "health_potion"
+        ],
+        "encounters": {
+            "friendly": 0.8,
+            "neutral": 0.2,
+            "hostile": 0.0
+        },
+        "available_actions": [
+            "Talk to the tavern keeper",
+            "Listen to rumors from other patrons",
+            "Rest and recover health",
+            "Check the quest board",
+            "Travel to the town square",
+            "Head toward the dark forest"
+        ]
+    },
+    "dark_forest": {
+        "name": "The Dark Forest",
+        "description": "Ancient trees tower overhead, their thick canopy blocking most sunlight. The air is damp and filled with strange sounds. Shadows seem to move between the trees, and an eerie mist clings to the ground.",
+        "connections": [
+            "tavern",
+            "forest_clearing",
+            "bandit_camp"
+        ],
+        "npcs": [
+            "forest_guardian"
+        ],
+        "items": [
+            "mysterious_herb",
+            "old_coin"
+        ],
+        "encounters": {
+            "friendly": 0.1,
+            "neutral": 0.3,
+            "hostile": 0.6
+        },
+        "available_actions": [
+            "Search for the forest guardian",
+            "Investigate strange sounds",
+            "Forage for herbs",
+            "Follow the path deeper into the forest",
+            "Return to the tavern",
+            "Look for the bandit camp"
+        ]
+    },
+    "bandit_camp": {
+        "name": "Bandit Camp",
+        "description": "A crude encampment hidden among the trees. Makeshift tents surround a central fire pit. You can see stolen goods piled near a large tent, and rough-looking bandits patrol the perimeter.",
+        "connections": [
+            "dark_forest"
+        ],
+        "npcs": [
+            "bandit_leader"
+        ],
+        "items": [
+            "stolen_amulet",
+            "bandit_treasure"
+        ],
+        "encounters": {
+            "friendly": 0.0,
+            "neutral": 0.1,
+            "hostile": 0.9
+        },
+        "available_actions": [
+            "Sneak closer to observe",
+            "Challenge the bandits",
+            "Search for the stolen amulet",
+            "Retreat to the forest"
+        ]
+    },
+    "castle": {
+        "name": "Ironhold Castle",
+        "description": "Massive stone walls rise before you, topped with battlements where guards keep watch. The castle gates are flanked by iron-clad sentries. Beyond the gates, you can see a courtyard with a grand keep at its center.",
+        "connections": [
+            "town_square",
+            "throne_room"
+        ],
+        "npcs": [
+            "castle_guard",
+            "merchant"
+        ],
+        "items": [
+            "castle_key"
+        ],
+        "encounters": {
+            "friendly": 0.6,
+            "neutral": 0.4,
+            "hostile": 0.0
+        },
+        "available_actions": [
+            "Speak with the castle guard",
+            "Visit the merchant",
+            "Request audience with the lord",
+            "Explore the courtyard",
+            "Return to town square"
+        ]
+    },
+    "town_square": {
+        "name": "Town Square",
+        "description": "The heart of the town bustles with activity. Merchants hawk their wares, children play near a central fountain, and town criers share the latest news. Roads lead in all directions.",
+        "connections": [
+            "tavern",
+            "castle",
+            "dark_forest"
+        ],
+        "npcs": [
+            "town_crier",
+            "merchant"
+        ],
+        "items": [],
+        "encounters": {
+            "friendly": 0.9,
+            "neutral": 0.1,
+            "hostile": 0.0
+        },
+        "available_actions": [
+            "Listen to the town crier",
+            "Browse the merchant's goods",
+            "Head to the tavern",
+            "Walk to the castle",
+            "Venture toward the dark forest"
+        ]
+    }
+}

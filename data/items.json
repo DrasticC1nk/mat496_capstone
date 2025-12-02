@@ -1,0 +1,69 @@
+{
+    "items": {
+        "health_potion": {
+            "name": "Health Potion",
+            "description": "A glass vial filled with crimson liquid that glows faintly. Drinking it restores vitality and closes wounds.",
+            "type": "consumable",
+            "effects": {
+                "health": 30
+            },
+            "value": 20,
+            "lore": "Crafted by alchemists using rare herbs from the Dark Forest, these potions have saved countless adventurers."
+        },
+        "mana_potion": {
+            "name": "Mana Potion",
+            "description": "A blue crystalline liquid that shimmers with magical energy.",
+            "type": "consumable",
+            "effects": {
+                "mana": 20
+            },
+            "value": 25,
+            "lore": "Infused with arcane essence, these potions restore magical energy to spellcasters."
+        },
+        "rusty_sword": {
+            "name": "Rusty Sword",
+            "description": "An old, worn blade covered in rust. Better than bare fists, but barely.",
+            "type": "weapon",
+            "damage_bonus": 2,
+            "value": 5,
+            "lore": "Every adventurer starts somewhere. This sword has seen better days."
+        },
+        "iron_sword": {
+            "name": "Iron Sword",
+            "description": "A well-crafted blade of solid iron. Sharp and balanced.",
+            "type": "weapon",
+            "damage_bonus": 5,
+            "value": 100,
+            "lore": "Standard issue for town guards, this reliable weapon has proven itself in countless battles."
+        },
+        "stolen_amulet": {
+            "name": "Marta's Amulet",
+            "description": "A silver amulet with a deep blue gemstone. It bears intricate engravings of a dragon.",
+            "type": "quest_item",
+            "value": 200,
+            "lore": "This amulet belonged to Marta's adventuring party. It was a gift from a grateful nobleman they once saved. The bandits stole it during a raid."
+        },
+        "mysterious_herb": {
+            "name": "Moonleaf Herb",
+            "description": "A silvery plant that seems to glow in moonlight. The forest guardian values these.",
+            "type": "crafting",
+            "value": 15,
+            "lore": "This rare herb grows only in the deepest parts of the Dark Forest. It has alchemical and medicinal properties."
+        },
+        "leather_armor": {
+            "name": "Leather Armor",
+            "description": "Sturdy leather armor that offers decent protection without restricting movement.",
+            "type": "armor",
+            "defense_bonus": 3,
+            "value": 80,
+            "lore": "Crafted from treated hide, this armor is favored by scouts and rogues for its flexibility."
+        },
+        "bandit_key": {
+            "name": "Iron Key",
+            "description": "A crude iron key taken from the bandit leader. It likely opens something at the camp.",
+            "type": "key",
+            "value": 5,
+            "lore": "Bandits aren't known for their craftsmanship, but this key might prove useful."
+        }
+    }
+}

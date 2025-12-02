@@ -1,0 +1,99 @@
+{
+    "tavern_keeper": {
+        "name": "Marta the Tavern Keeper",
+        "personality": "Friendly, gossipy, motherly",
+        "backstory": "A former adventurer who settled down after losing her adventuring party to a dragon. Now she runs the Red Dragon Tavern and provides food, drinks, and information to travelers. She has a soft spot for brave souls and often helps adventurers with advice.",
+        "location": "tavern",
+        "initial_relationship": 10,
+        "dialogue_hints": [
+            "Knows about local rumors and quests",
+            "Can provide healing (rest at tavern)",
+            "Offers the stolen amulet quest",
+            "Remembers regular customers"
+        ],
+        "quest_giver": true,
+        "quests": [
+            "stolen_amulet"
+        ]
+    },
+    "forest_guardian": {
+        "name": "Elara Moonwhisper",
+        "personality": "Mysterious, wise, cryptic",
+        "backstory": "An ancient elf who has guarded the Dark Forest for centuries. She speaks in riddles and expects respect for nature. She knows ancient secrets and will help those who prove themselves worthy.",
+        "location": "dark_forest",
+        "initial_relationship": 0,
+        "dialogue_hints": [
+            "Speaks about the balance of nature",
+            "Offers cryptic warnings",
+            "Can teach about forest herbs",
+            "May help against bandits if respected"
+        ],
+        "quest_giver": false,
+        "quests": []
+    },
+    "castle_guard": {
+        "name": "Captain Borin",
+        "personality": "Stern, duty-bound, no-nonsense",
+        "backstory": "A career soldier who has served the kingdom for 20 years. He has fought in countless battles and values discipline and honor above all. He doesn't tolerate troublemakers but respects courage.",
+        "location": "castle",
+        "initial_relationship": 5,
+        "dialogue_hints": [
+            "Can grant access to the castle",
+            "Appreciates law-abiding behavior",
+            "Shares stories of past battles",
+            "May reward heroes"
+        ],
+        "quest_giver": false,
+        "quests": []
+    },
+    "bandit_leader": {
+        "name": "Grimjaw the Cruel",
+        "personality": "Ruthless, cunning, greedy",
+        "backstory": "A notorious bandit who terrorizes the forest roads. He leads a gang of thieves and has a reputation for brutality. Recently stole a precious amulet from the tavern keeper.",
+        "location": "bandit_camp",
+        "initial_relationship": -50,
+        "dialogue_hints": [
+            "Will fight unless intimidated",
+            "Cares only about treasure",
+            "Can be reasoned with if powerful enough",
+            "Guards the stolen amulet"
+        ],
+        "quest_giver": false,
+        "quests": [],
+        "combat_stats": {
+            "level": 3,
+            "health": 50,
+            "loot": {
+                "gold": [
+                    30,
+                    60
+                ],
+                "items": [
+                    "stolen_amulet",
+                    "bandit_key"
+                ]
+            }
+        }
+    },
+    "merchant": {
+        "name": "Tobias the Trader",
+        "personality": "Shrewd, business-minded, friendly",
+        "backstory": "A traveling merchant who sets up shop in various locations. He has connections throughout the realm and can acquire rare items for the right price.",
+        "location": "town_square",
+        "initial_relationship": 15,
+        "dialogue_hints": [
+            "Buys and sells items",
+            "Knows about rare artifacts",
+            "Offers fair prices",
+            "Has information about distant lands"
+        ],
+        "quest_giver": false,
+        "quests": [],
+        "shop": {
+            "health_potion": 20,
+            "mana_potion": 25,
+            "iron_sword": 100,
+            "leather_armor": 80
+        }
+    }
+}
